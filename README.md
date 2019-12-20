@@ -30,7 +30,7 @@
  
   channelRegistered   : 채널이 eventloop에 등록된 상태  
   channelActive       : 채널이 활성화된 상태  
-  channelUnactive     : 채널이 비활성화된 상태  
+  channelInactive     : 채널이 비활성화된 상태  
   channelUnregistered : 채널이 eventloop에 등록되지 않은 상태  
   
   그리고 channelRead(상대편으로 부터 데이터를 수신할때 수행)/ channelReadComplete(데이터 수신이 끝난 후 수행)등  
