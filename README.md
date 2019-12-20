@@ -26,14 +26,14 @@
 
 ### EchoHandler.java
 - ChannelHanlder 작성
- Channel은 다음과 같은 4가지의 상태를 갖습니다.
+ Channel은 다음과 같은 4가지의 상태를 갖습니다.  
  
- channelRegistered   : 채널이 eventloop에 등록된 상태
- channelActive       : 채널이 활성화된 상태
- channelUnactive     : 채널이 비활성화된 상태
- channelUnregistered : 채널이 eventloop에 등록되지 않은 상태
+ channelRegistered   : 채널이 eventloop에 등록된 상태  
+ channelActive       : 채널이 활성화된 상태  
+ channelUnactive     : 채널이 비활성화된 상태  
+ channelUnregistered : 채널이 eventloop에 등록되지 않은 상태  
  
- 그리고 channelRead(상대편으로 부터 데이터를 수신할때 수행)/ channelReadComplete(데이터 수신이 끝난 후 수행)
- 등 Adaptor를 이용해 Override한 여러 메소드를 사용할 수 있습니다.
+ 그리고 channelRead(상대편으로 부터 데이터를 수신할때 수행)/ channelReadComplete(데이터 수신이 끝난 후 수행)등  
+ Adaptor를 이용해 Override한 여러 메소드를 사용할 수 있습니다.
  
  
