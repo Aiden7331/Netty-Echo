@@ -25,7 +25,7 @@
  아웃바운드 데이터(송신할 데이터)에 대해서도 pipe를 구성해서 단계별로 데이터 처러를 수행합니다.
 
 ### EchoHandler.java
-- ChannelHanlder 작성
+- ChannelHanlder 작성  
  Channel은 다음과 같은 4가지의 상태를 갖습니다.  
  
  channelRegistered   : 채널이 eventloop에 등록된 상태  
