@@ -34,6 +34,6 @@
   channelUnregistered : 채널이 eventloop에 등록되지 않은 상태  
   
   그리고 channelRead(상대편으로 부터 데이터를 수신할때 수행)/ channelReadComplete(데이터 수신이 끝난 후 수행)등  
-  Adaptor를 이용해 Override한 여러 메소드를 사용할 수 있습니다.
+  Adapter를 이용해 Override한 여러 메소드를 사용할 수 있습니다.
  
  
